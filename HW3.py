@@ -12,7 +12,7 @@ import random
 import io
 from contextlib import redirect_stdout
 
-
+print("testing")
 class CouponDispenser:
     """
     CouponDispenser manages a box of coupon cards and assigns one coupon

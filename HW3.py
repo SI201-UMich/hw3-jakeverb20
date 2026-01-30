@@ -42,6 +42,9 @@ class CouponDispenser:
         
 
     def __str__(self):
+
+
+
         """
         Return a single string with all coupons in coupon_cards joined by pipes ('|').
         If coupon_cards is empty, return an empty string "".
@@ -50,7 +53,15 @@ class CouponDispenser:
             str
         """
         # TODO: Implement per instructions
-        pass
+
+        return "|".join(self.coupon_cards)
+
+        
+
+
+        
+
+        
 
     def issue_coupon(self, name):
         """
